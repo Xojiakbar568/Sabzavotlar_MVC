@@ -34,7 +34,8 @@ namespace User_MVC.Controllers
         [HttpPost]
         public IActionResult Add(Sabzavot newsabzavot)
         {
-            return View(newsabzavot);
+            _request.Add(newsabzavot);
+            return RedirectToAction("Index");
         }
     }
 }
