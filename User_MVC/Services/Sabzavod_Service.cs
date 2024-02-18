@@ -12,8 +12,8 @@ namespace User_MVC.Services
                 new Sabzavot()
                 {
                 Id = 1,
-                Name = "Karam",
-                Price=7000
+                Name = "Potato",
+                Price=4000
                 }
 
             };
