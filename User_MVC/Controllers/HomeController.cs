@@ -24,13 +24,13 @@ namespace User_MVC.Controllers
         {
             return View(_request.GetAllsabz());
         }
-        //Malumot olish uchun
+        
         [HttpGet]
         public IActionResult Add()
         {
             return View();
         }
-        //Malumot berish ychun
+        
         [HttpPost]
         public IActionResult Add(Sabzavot newsabzavot)
         {
